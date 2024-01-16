@@ -1,3 +1,11 @@
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+game:GetService("GuiService"):ClearError()
+
+if game.PlaceId == 142823291 then
+local lunar;
 ([[
                    This script has been licensed using Luarmor
                 Luarmor v3.5, Lua whitelisting system by @fedaral#0
